@@ -1,6 +1,6 @@
 # LegIK — Procedural Leg Inverse Kinematics for Three.js + Rapier
 
-A lightweight, zero-dependency IK system that places character feet accurately
+A lightweight, IK system that places character feet accurately
 on uneven terrain and physics objects. Runs entirely in the browser.
 
 ---
@@ -17,7 +17,7 @@ on uneven terrain and physics objects. Runs entirely in the browser.
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/Aditya02git/Leg-IK_In_ThreeJS_With_Rapier.git
 cd your-repo
 ```
 
