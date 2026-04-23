@@ -82,7 +82,7 @@ export class FPSController {
 
     // ── Main capsule: shifted UP so it covers torso only ─────────────────
     const capsuleDesc = RAPIER.ColliderDesc
-      .capsule(0.35, 0.3)
+      .capsule(0.6, 0.4)
       .setTranslation(0, 0.9, 0)
       .setFriction(0.0)
       .setRestitution(0.0)
