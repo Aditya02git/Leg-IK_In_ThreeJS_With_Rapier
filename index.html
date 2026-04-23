@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leg Inverse Kinematics</title>
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loading">
+    <div class="logo">Leg IK</div>
+    <div class="sub">v1.0</div>
+    <div id="loading-bar-wrap">
+      <div id="loading-bar"></div>
+    </div>
+    <div id="loading-status">INITIALIZING PHYSICS...</div>
+  </div>
+
+  <!-- Click to Play -->
+  <div id="click-to-play">
+    <div class="msg">CLICK TO ENTER</div>
+  </div>
+
+  <!-- Game Canvas -->
+  <canvas id="canvas"></canvas>
+
+  <!-- Crosshair -->
+  <div id="crosshair"></div>
+
+  <!-- HUD -->
+  <div id="hud">
+    <!-- Corner decorations -->
+    <div class="corner tl"></div>
+    <div class="corner tr"></div>
+    <div class="corner bl"></div>
+    <div class="corner br"></div>
+
+    <div id="top-bar">
+      <div class="title-block">
+        Leg-IK
+      </div>
+      <div class="hud-panel" style="text-align:right">
+        <div class="label">Position</div>
+        <div class="value" id="pos-x">X: 0.0</div>
+        <div class="value" id="pos-y">Y: 0.0</div>
+        <div class="value" id="pos-z">Z: 0.0</div>
+      </div>
+    </div>
+
+    <div id="bottom-bar">
+      <div id="controls-hint">
+        <span>W A S D</span> MOVE &nbsp;
+        <span>SPACE</span> JUMP &nbsp;
+        <span>MOUSE</span> LOOK &nbsp;
+        <span>SHIFT</span> SPRINT
+      </div>
+      <div id="speed-bar-wrap">
+        <div class="label">VELOCITY</div>
+        <div id="speed-bar"><div id="speed-fill"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
